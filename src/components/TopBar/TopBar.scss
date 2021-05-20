@@ -1,0 +1,34 @@
+.tool-bar {
+  background-color: #2B2B2B;
+  height: 112px;
+
+  &__logo {
+    width: 111px;
+    height: 104px;
+  }
+
+  &-nav {
+    display: flex;
+    width: 60%;
+
+    &-list {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      li {
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          font-family: Timmana, serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 36px;
+          line-height: 59px;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
