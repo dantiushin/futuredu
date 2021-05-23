@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 
-import classesState from './slasses';
+import scheduleState from './schedule';
 import signInUserState from './signInUser';
 
 const rootReducer = combineReducers({
-  classesState,
+  scheduleState,
   signInUserState,
 });
 

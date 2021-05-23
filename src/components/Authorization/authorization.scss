@@ -1,0 +1,39 @@
+.authorization-main {
+  display: grid;
+  grid-template-columns: 209px 681px;
+  grid-template-rows: 188px 89px;
+
+  &__logo {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+
+  .form-wrapper {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-rows: 146px 172px;
+
+    &__title {
+      font-size: 50px
+    }
+
+    form { 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      div {
+        width: 55ch;
+        border-radius: 20px;
+      }
+  
+      button {
+        width: 64ch;
+        border-radius: 18px;
+        height: 52px;
+      }
+    }
+
+  }
+}

@@ -1,6 +1,6 @@
 .tool-bar {
   background-color: #2B2B2B;
-  height: 112px;
+  height: 122px;
 
   &__logo {
     width: 111px;
@@ -8,6 +8,8 @@
   }
 
   &-nav {
+    position: relative;
+    top: 10px;
     display: flex;
     width: 60%;
 
