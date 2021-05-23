@@ -1,0 +1,31 @@
+.schedule-table-wrapper {
+  display: flex;
+  justify-content: center;
+  
+  .schedule-table {
+    width: 80vw;
+  
+    thead {
+      tr {
+        th {
+          border: 1px solid #000;
+          width: 10vw;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          border: 1px solid #000;
+        }
+      }
+    }
+  }
+
+}
+
+.weeks-wrapper {
+  display: flex;
+  justify-content: center;
+}

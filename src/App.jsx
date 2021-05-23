@@ -11,6 +11,7 @@ import { Student } from './components/Student';
 import { AboutUs } from './components/AboutUs';
 import { Authorization } from './components/Authorization';
 import { Entrant } from './components/Entrant';
+import { PersonalPage } from './components/PersonalPage';
 
 const routes = [
   { path: '/', component: MainPage },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/about-us', component: AboutUs },
   { path: '/authorization', component: Authorization },
   { path: '/entrant', component: Entrant },
+  { path: '/personalPage', component: PersonalPage },
 ];
 
 function App() {
