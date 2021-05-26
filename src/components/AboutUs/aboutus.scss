@@ -1,0 +1,72 @@
+.about-us{
+  width: 1752px;
+  height: 730px;
+  display: grid;
+  grid-template-columns: 30px 879px;
+  grid-template-rows: 56px;
+  position: relative;
+  top: 48px;
+  left: 41px;
+  background-color: #D5D5D5;
+  border-radius: 22px;
+
+  &__column-one {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  &__column-two{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+
+  div {
+
+    div {
+
+      width: 845px;
+      display: inline-flex;
+      justify-content: space-between;
+  
+  
+      img {
+        width: 450px;
+        height: 270px;
+      }
+  
+      p {
+        width: 355px;
+        height: 268px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 44px;
+  
+        color: #000000;
+  
+        mix-blend-mode: normal;
+      }
+    }
+  }
+
+  .news-one {
+
+    &__title {
+      
+    }
+  }
+
+  .news-two {
+  }
+
+  .news-three {
+  }
+
+  .news-four {
+  }
+}
