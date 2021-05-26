@@ -12,6 +12,9 @@ import { AboutUs } from './components/AboutUs';
 import { Authorization } from './components/Authorization';
 import { Entrant } from './components/Entrant';
 import { PersonalPage } from './components/PersonalPage';
+import { Calculator } from './components/Calculator';
+import { Day } from './components/Day';
+import { Hostel } from './components/Hostel';
 
 const routes = [
   { path: '/', component: MainPage },
@@ -20,6 +23,9 @@ const routes = [
   { path: '/authorization', component: Authorization },
   { path: '/entrant', component: Entrant },
   { path: '/personalPage', component: PersonalPage },
+  { path: '/calculator', component: Calculator },
+  { path: '/day', component: Day },
+  { path: '/hostel', component: Hostel },
 ];
 
 function App() {

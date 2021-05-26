@@ -1,0 +1,23 @@
+.day-container{
+
+  &__title {
+    margin: 0;
+    position: absolute;
+    width: 581px;
+    height: 117px;
+    left: 23px;
+    top: 164px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 117px;
+    color: #000000;
+  }
+  
+  &__img{
+    height: calc(100vh - 126px);
+    width: 100vw;
+  }
+
+}
